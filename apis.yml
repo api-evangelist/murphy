@@ -1,9 +1,30 @@
 aid: murphy
 name: Murphy
-description: 'Murphy is a company surfaced as a portfolio company of northzone, seedcamp and added to
-  the API Evangelist network as a stub for enrichment. Sector: fintech; ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Murphy is a Barcelona-based fintech building AI voice and omnichannel agents
+  that automate debt collection and servicing for banks, fintechs, utilities,
+  telecoms and debt collection agencies. Founded in 2024 by Borja Sole and Marc
+  Sanchez, the platform runs 24/7 AI agents across voice, SMS and email in 15+
+  languages, handling inbound and outbound recovery with human escalation,
+  behavioural personalisation and fully audited, compliance-bounded interactions
+  (ISO 27001, GDPR and EU AI Act aligned). Murphy claims materially higher
+  recovery rates and 50-70% lower operational cost. It raised roughly $15M
+  (seed + pre-seed) led by Northzone with ElevenLabs, Lakestar, Seedcamp and
+  Enzo Ventures. Added to the API Evangelist network as a company profile; no
+  public developer API, SDK or documentation surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/murphy/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.getmurphy.ai/_assets/v11/88ab241b598686483a364ba6ba165444a6731235.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Fintech; Ai
+- Fintech
+- Artificial Intelligence
+- Debt Collection
+- Voice AI
+- Financial Services
+- Collections
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.getmurphy.ai
+- type: Login
+  url: https://web.getmurphy.ai/signin
+- type: TermsOfService
+  url: https://www.getmurphy.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.getmurphy.ai/privacy-policy
+- type: Compliance
+  url: https://www.getmurphy.ai/security-compliance
+- type: TrustCenter
+  url: https://app.eu.vanta.com/getmurphy.ai/trust/0j2gt1tccqbflqfnuaubk3
+- type: TrustCenter
+  url: security/murphy-trust-center.yml
+- type: DomainSecurity
+  url: security/murphy-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
