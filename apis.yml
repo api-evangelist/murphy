@@ -52,7 +52,7 @@ tags:
 - Artificial Intelligence
 - Debt Collection
 - Voice AI
-- Financial-Services
+- Financial Services
 - Collection
 tags_raw:
 - Company
@@ -62,6 +62,7 @@ tags_raw:
 - Voice AI
 - Financial Services
 - Collections
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
